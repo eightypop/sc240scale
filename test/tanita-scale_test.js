@@ -30,7 +30,7 @@ exports.tanita-scale = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    test.equal(tanita-scale.awesome(), 'awesome', 'should be awesome.');
+    //TODO write some tests
     test.done();
   }
 };

@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "main": "lib/tanita-scale.js",
   "description": "Provides a usb interface for the Tanita SC-240 scale.",
-  "homepage": "https://github.com/whatknight/tanita-scale",
-  "bugs": "https://github.com/whatknight/tanita-scale/issues",
+  "homepage": "https://github.com/whatknight/sc240scale",
+  "bugs": "https://github.com/whatknight/sc240scale/issues",
   "author": {
     "name": "Matt Thompson",
     "email": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whatknight/tanita-scale"
+    "url": "https://github.com/whatknight/sc240scale"
   },
   "licenses": [
     {
