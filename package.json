@@ -1,6 +1,6 @@
 {
   "name": "tanita-scale",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/tanita-scale.js",
   "description": "Provides a usb interface for the Tanita SC-240 scale.",
   "homepage": "https://github.com/whatknight/sc240scale",
