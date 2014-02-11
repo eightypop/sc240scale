@@ -22,14 +22,12 @@ console.log('ready to go');
 ## Documentation
 Data output follows the table in the SC-240 manual which can be found here: http://www.tanita.com/es/sc-240/
 
+If you don't have a scale connected, an error will be logged and the status property of will read 'error' instead of 'normal'.
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Release History
-
-v0.0.2 is now available on npm
-
-https://npmjs.org/package/tanita-scale
+http://npmjs.org/package/tanita-scale
 
 ## License
 Copyright (c) 2013 Matt Thompson. Licensed under the MIT license.
