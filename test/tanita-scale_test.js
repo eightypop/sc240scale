@@ -1,6 +1,6 @@
 'use strict';
 
-var tanita-scale = require('../lib/tanita-scale.js');
+var scale = require('../lib/tanita-scale.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -22,15 +22,15 @@ var tanita-scale = require('../lib/tanita-scale.js');
     test.ifError(value)
 */
 
-exports.tanita-scale = {
+exports.tanita_scale = {
   setUp: function(done) {
     // setup here
     done();
   },
   'no args': function(test) {
-    test.expect(1);
-    // tests here
-    //TODO write some tests
+    
+	test.doesNotThrow(function(){new scale("/dev/cu.usbserial-A100FN3D")});
+	
     test.done();
   }
 };
